@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #24c9d3;
+}
+
+.controlRow {
+  display: inline-block;
+  padding: 25px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.checkmark img {
+  width:50px;
+  margin:20px 10px;
+}
+
+.checkmark {
+  display: inline-block;
+}
+
+.progressRow {
+  text-align: center;
+  width: 400px;
+  margin: 0px auto;
 }
